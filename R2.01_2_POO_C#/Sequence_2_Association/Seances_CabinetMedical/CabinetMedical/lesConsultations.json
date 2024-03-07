@@ -1,0 +1,171 @@
+[
+  {
+    "ADomicile": false,
+    "EstDocteurTraitant": true,
+    "UnDocteur": {
+      "UneCategorie": 0,
+      "UnNom": "Oddou"
+    },
+    "UnPatient": {
+      "Nom": "Rao",
+      "Prenom": "Lucie",
+      "DateNaissance": "2000-10-15T00:00:00"
+    },
+    "UnJourUnHoraire": "2024-01-31T10:30:00"
+  },
+  {
+    "ADomicile": true,
+    "EstDocteurTraitant": false,
+    "UnDocteur": {
+      "UneCategorie": 0,
+      "UnNom": "Oddou"
+    },
+    "UnPatient": {
+      "Nom": "Rao",
+      "Prenom": "Lucie",
+      "DateNaissance": "2000-10-15T00:00:00"
+    },
+    "UnJourUnHoraire": "2024-01-30T11:30:00"
+  },
+  {
+    "ADomicile": false,
+    "EstDocteurTraitant": false,
+    "UnDocteur": {
+      "UneCategorie": 0,
+      "UnNom": "Oddou"
+    },
+    "UnPatient": {
+      "Nom": "Rao",
+      "Prenom": "Lucie",
+      "DateNaissance": "2000-10-15T00:00:00"
+    },
+    "UnJourUnHoraire": "2024-01-14T15:00:00"
+  },
+  {
+    "ADomicile": true,
+    "EstDocteurTraitant": true,
+    "UnDocteur": {
+      "UneCategorie": 0,
+      "UnNom": "Oddou"
+    },
+    "UnPatient": {
+      "Nom": "Rao",
+      "Prenom": "Lucie",
+      "DateNaissance": "2000-10-15T00:00:00"
+    },
+    "UnJourUnHoraire": "2024-01-14T11:30:00"
+  },
+  {
+    "ADomicile": false,
+    "EstDocteurTraitant": true,
+    "UnDocteur": {
+      "UneCategorie": 0,
+      "UnNom": "Oddou"
+    },
+    "UnPatient": {
+      "Nom": "Blaze",
+      "Prenom": "Max",
+      "DateNaissance": "2020-10-15T00:00:00"
+    },
+    "UnJourUnHoraire": "2024-01-30T11:30:00"
+  },
+  {
+    "ADomicile": true,
+    "EstDocteurTraitant": true,
+    "UnDocteur": {
+      "UneCategorie": 0,
+      "UnNom": "Oddou"
+    },
+    "UnPatient": {
+      "Nom": "Blaze",
+      "Prenom": "Max",
+      "DateNaissance": "2020-10-15T00:00:00"
+    },
+    "UnJourUnHoraire": "2024-02-02T13:30:00"
+  },
+  {
+    "ADomicile": false,
+    "EstDocteurTraitant": false,
+    "UnDocteur": {
+      "UneCategorie": 0,
+      "UnNom": "Oddou"
+    },
+    "UnPatient": {
+      "Nom": "Blaze",
+      "Prenom": "Max",
+      "DateNaissance": "2020-10-15T00:00:00"
+    },
+    "UnJourUnHoraire": "2024-01-28T13:00:00"
+  },
+  {
+    "ADomicile": true,
+    "EstDocteurTraitant": true,
+    "UnDocteur": {
+      "UneCategorie": 0,
+      "UnNom": "Oddou"
+    },
+    "UnPatient": {
+      "Nom": "Blaze",
+      "Prenom": "Max",
+      "DateNaissance": "2020-10-15T00:00:00"
+    },
+    "UnJourUnHoraire": "2024-01-28T15:30:00"
+  },
+  {
+    "ADomicile": false,
+    "EstDocteurTraitant": true,
+    "UnDocteur": {
+      "UneCategorie": 0,
+      "UnNom": "Oddou"
+    },
+    "UnPatient": {
+      "Nom": "Rati",
+      "Prenom": "Léo",
+      "DateNaissance": "2023-01-01T00:00:00"
+    },
+    "UnJourUnHoraire": "2024-02-06T11:00:00"
+  },
+  {
+    "ADomicile": true,
+    "EstDocteurTraitant": true,
+    "UnDocteur": {
+      "UneCategorie": 0,
+      "UnNom": "Oddou"
+    },
+    "UnPatient": {
+      "Nom": "Rati",
+      "Prenom": "Léo",
+      "DateNaissance": "2023-01-01T00:00:00"
+    },
+    "UnJourUnHoraire": "2024-02-06T12:00:00"
+  },
+  {
+    "ADomicile": false,
+    "EstDocteurTraitant": true,
+    "UnDocteur": {
+      "UneCategorie": 0,
+      "UnNom": "Oddou"
+    },
+    "UnPatient": {
+      "Nom": "Rati",
+      "Prenom": "Léo",
+      "DateNaissance": "2023-01-01T00:00:00"
+    },
+    "UnJourUnHoraire": "2024-02-04T15:00:00"
+  },
+  {
+    "ADomicile": true,
+    "EstDocteurTraitant": true,
+    "UnDocteur": {
+      "UneCategorie": 0,
+      "UnNom": "Oddou"
+    },
+    "UnPatient": {
+      "Nom": "Rati",
+      "Prenom": "Léo",
+      "DateNaissance": "2023-01-01T00:00:00",
+      "Age": 1
+    },
+    "UnJourUnHoraire": "2024-02-04T15:00:00"
+  }
+]

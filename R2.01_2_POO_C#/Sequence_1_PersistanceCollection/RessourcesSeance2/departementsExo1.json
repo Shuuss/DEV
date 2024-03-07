@@ -1,0 +1,810 @@
+[
+  {
+    "numero": 1,
+    "nom": "Ain",
+    "superficie": 5762,
+    "population": 631877,
+    "chefLieu": "Bourg-en-Bresse",
+    "region": "Auvergne-Rhône-Alpes"
+  },
+  {
+    "numero": 2,
+    "nom": "Aisne",
+    "superficie": 7369,
+    "population": 538659,
+    "chefLieu": "Laon",
+    "region": "Hauts-de-France"
+  },
+  {
+    "numero": 3,
+    "nom": "Allier",
+    "superficie": 7340,
+    "population": 341613,
+    "chefLieu": "Moulins",
+    "region": "Auvergne-Rhône-Alpes"
+  },
+  {
+    "numero": 4,
+    "nom": "Alpes-de-Haute-Provence",
+    "superficie": 6925,
+    "population": 161799,
+    "chefLieu": "Digne",
+    "region": "Provence-Alpes-Côte d'Azur"
+  },
+  {
+    "numero": 5,
+    "nom": "Hautes-Alpes",
+    "superficie": 5549,
+    "population": 140916,
+    "chefLieu": "Gap",
+    "region": "Provence-Alpes-Côte d'Azur"
+  },
+  {
+    "numero": 6,
+    "nom": "Alpes-Maritimes",
+    "superficie": 4299,
+    "population": 1082440,
+    "chefLieu": "Nice",
+    "region": "Provence-Alpes-Côte d'Azur"
+  },
+  {
+    "numero": 7,
+    "nom": "Ardèche",
+    "superficie": 5529,
+    "population": 324209,
+    "chefLieu": "Privas",
+    "region": "Auvergne-Rhône-Alpes"
+  },
+  {
+    "numero": 8,
+    "nom": "Ardennes",
+    "superficie": 5229,
+    "population": 277752,
+    "chefLieu": "Charleville-Mézières",
+    "region": "Grand Est"
+  },
+  {
+    "numero": 9,
+    "nom": "Ariège",
+    "superficie": 4890,
+    "population": 152499,
+    "chefLieu": "Foix",
+    "region": "Occitanie"
+  },
+  {
+    "numero": 10,
+    "nom": "Aube",
+    "superficie": 6004,
+    "population": 309056,
+    "chefLieu": "Troyes",
+    "region": "Grand Est"
+  },
+  {
+    "numero": 11,
+    "nom": "Aude",
+    "superficie": 6139,
+    "population": 366957,
+    "chefLieu": "Carcassonne",
+    "region": "Occitanie"
+  },
+  {
+    "numero": 12,
+    "nom": "Aveyron",
+    "superficie": 8735,
+    "population": 279169,
+    "chefLieu": "Rodez",
+    "region": "Occitanie"
+  },
+  {
+    "numero": 13,
+    "nom": "Bouches-du-Rhône",
+    "superficie": 5088,
+    "population": 2016622,
+    "chefLieu": "Marseille",
+    "region": "Provence-Alpes-Côte d'Azur"
+  },
+  {
+    "numero": 14,
+    "nom": "Calvados",
+    "superficie": 5548,
+    "population": 693579,
+    "chefLieu": "Caen",
+    "region": "Normandie"
+  },
+  {
+    "numero": 15,
+    "nom": "Cantal",
+    "superficie": 5726,
+    "population": 146219,
+    "chefLieu": "Aurillac",
+    "region": "Auvergne-Rhône-Alpes"
+  },
+  {
+    "numero": 16,
+    "nom": "Charente",
+    "superficie": 5956,
+    "population": 353613,
+    "chefLieu": "Angoulême",
+    "region": "Nouvelle-Aquitaine"
+  },
+  {
+    "numero": 17,
+    "nom": "Charente-Maritime",
+    "superficie": 6864,
+    "population": 639938,
+    "chefLieu": "LaRochelle",
+    "region": "Nouvelle-Aquitaine"
+  },
+  {
+    "numero": 18,
+    "nom": "Cher",
+    "superficie": 7235,
+    "population": 308992,
+    "chefLieu": "Bourges",
+    "region": "Centre-Val de Loire"
+  },
+  {
+    "numero": 19,
+    "nom": "Corrèze",
+    "superficie": 5857,
+    "population": 241871,
+    "chefLieu": "Tulle",
+    "region": "Nouvelle-Aquitaine"
+  },
+  {
+    "numero": "2A",
+    "nom": "Corse-du-Sud",
+    "superficie": 4014,
+    "population": 152730,
+    "chefLieu": "Ajaccio",
+    "region": "Corse"
+  },
+  {
+    "numero": "2B",
+    "nom": "Haute-Corse",
+    "superficie": 4666,
+    "population": 174553,
+    "chefLieu": "Bastia",
+    "region": "Corse"
+  },
+  {
+    "numero": 21,
+    "nom": "Côte-d'Or",
+    "superficie": 8763,
+    "population": 533147,
+    "chefLieu": "Dijon",
+    "region": "Bourgogne-Franche-Comté"
+  },
+  {
+    "numero": 22,
+    "nom": "Côtesd'Armor",
+    "superficie": 6878,
+    "population": 598357,
+    "chefLieu": "Saint-Brieuc",
+    "region": "Bretagne"
+  },
+  {
+    "numero": 23,
+    "nom": "Creuse",
+    "superficie": 5565,
+    "population": 120365,
+    "chefLieu": "Guéret",
+    "region": "Nouvelle-Aquitaine"
+  },
+  {
+    "numero": 24,
+    "nom": "Dordogne",
+    "superficie": 9060,
+    "population": 415417,
+    "chefLieu": "Périgueux",
+    "region": "Nouvelle-Aquitaine"
+  },
+  {
+    "numero": 25,
+    "nom": "Doubs",
+    "superficie": 5233,
+    "population": 536959,
+    "chefLieu": "Besançon",
+    "region": "Bourgogne-Franche-Comté"
+  },
+  {
+    "numero": 26,
+    "nom": "Drôme",
+    "superficie": 6530,
+    "population": 504637,
+    "chefLieu": "Valence",
+    "region": "Auvergne-Rhône-Alpes"
+  },
+  {
+    "numero": 27,
+    "nom": "Eure",
+    "superficie": 6040,
+    "population": 601948,
+    "chefLieu": "Évreux",
+    "region": "Normandie"
+  },
+  {
+    "numero": 28,
+    "nom": "Eure-et-Loir",
+    "superficie": 5880,
+    "population": 434035,
+    "chefLieu": "Chartres",
+    "region": "Centre-Val de Loire"
+  },
+  {
+    "numero": 29,
+    "nom": "Finistère",
+    "superficie": 6733,
+    "population": 907796,
+    "chefLieu": "Quimper",
+    "region": "Bretagne"
+  },
+  {
+    "numero": 30,
+    "nom": "Gars",
+    "superficie": 5853,
+    "population": 738189,
+    "chefLieu": "Nîmes",
+    "region": "Occitanie"
+  },
+  {
+    "numero": 31,
+    "nom": "Haute-Garonne",
+    "superficie": 6309,
+    "population": 1335103,
+    "chefLieu": "Toulouse",
+    "region": "Occitanie"
+  },
+  {
+    "numero": 32,
+    "nom": "Gers",
+    "superficie": 6257,
+    "population": 190932,
+    "chefLieu": "Auch",
+    "region": "Occitanie"
+  },
+  {
+    "numero": 33,
+    "nom": "Gironde",
+    "superficie": 9976,
+    "population": 1548478,
+    "chefLieu": "Bordeaux",
+    "region": "Nouvelle-Aquitaine"
+  },
+  {
+    "numero": 34,
+    "nom": "Hérault",
+    "superficie": 6101,
+    "population": 1120190,
+    "chefLieu": "Montpellier",
+    "region": "Occitanie"
+  },
+  {
+    "numero": 35,
+    "nom": "Ille-et-Vilaine",
+    "superficie": 6775,
+    "population": 1042884,
+    "chefLieu": "Rennes",
+    "region": "Bretagne"
+  },
+  {
+    "numero": 36,
+    "nom": "Indre",
+    "superficie": 6791,
+    "population": 224200,
+    "chefLieu": "Châteauroux",
+    "region": "Centre-Val de Loire"
+  },
+  {
+    "numero": 37,
+    "nom": "Indre-et-Loire",
+    "superficie": 6127,
+    "population": 604966,
+    "chefLieu": "Tours",
+    "region": "Centre-Val de Loire"
+  },
+  {
+    "numero": 38,
+    "nom": "Isère",
+    "superficie": 7432,
+    "population": 1251060,
+    "chefLieu": "Grenoble",
+    "region": "Auvergne-Rhône-Alpes"
+  },
+  {
+    "numero": 39,
+    "nom": "Jura",
+    "superficie": 4999,
+    "population": 260587,
+    "chefLieu": "Lons-le-Saunier",
+    "region": "Bourgogne-Franche-Comté"
+  },
+  {
+    "numero": 40,
+    "nom": "Landes",
+    "superficie": 9243,
+    "population": 403234,
+    "chefLieu": "Mont-de-Marsan",
+    "region": "Nouvelle-Aquitaine"
+  },
+  {
+    "numero": 41,
+    "nom": "Loir-et-Cher",
+    "superficie": 6343,
+    "population": 333050,
+    "chefLieu": "Blois",
+    "region": "Centre-Val de Loire"
+  },
+  {
+    "numero": 42,
+    "nom": "Loire",
+    "superficie": 4781,
+    "population": 759411,
+    "chefLieu": "Saint-Étienne",
+    "region": "Auvergne-Rhône-Alpes"
+  },
+  {
+    "numero": 43,
+    "nom": "Haute-Loire",
+    "superficie": 4977,
+    "population": 227034,
+    "chefLieu": "LePuy-en-Velay",
+    "region": "Auvergne-Rhône-Alpes"
+  },
+  {
+    "numero": 44,
+    "nom": "Loire-Atlantique",
+    "superficie": 6809,
+    "population": 1365227,
+    "chefLieu": "Nantes",
+    "region": "Pays de la Loire"
+  },
+  {
+    "numero": 45,
+    "nom": "Loiret",
+    "superficie": 6775,
+    "population": 673349,
+    "chefLieu": "Orléans",
+    "region": "Centre-Val de Loire"
+  },
+  {
+    "numero": 46,
+    "nom": "Lot",
+    "superficie": 5217,
+    "population": 173400,
+    "chefLieu": "Cahors",
+    "region": "Occitanie"
+  },
+  {
+    "numero": 47,
+    "nom": "Lot-et-Garonne",
+    "superficie": 5361,
+    "population": 333417,
+    "chefLieu": "Agen",
+    "region": "Nouvelle-Aquitaine"
+  },
+  {
+    "numero": 48,
+    "nom": "Lozère",
+    "superficie": 5167,
+    "population": 76309,
+    "chefLieu": "Mende",
+    "region": "Occitanie"
+  },
+  {
+    "numero": 49,
+    "nom": "Maine-et-Loire",
+    "superficie": 7172,
+    "population": 810186,
+    "chefLieu": "Angers",
+    "region": "Pays de la Loire"
+  },
+  {
+    "numero": 50,
+    "nom": "Manche",
+    "superficie": 5938,
+    "population": 499287,
+    "chefLieu": "Saint-Lô",
+    "region": "Normandie"
+  },
+  {
+    "numero": 51,
+    "nom": "Marne",
+    "superficie": 8162,
+    "population": 572293,
+    "chefLieu": "Châlons-en-Champagne",
+    "region": "Grand Est"
+  },
+  {
+    "numero": 52,
+    "nom": "Haute-Marne",
+    "superficie": 6211,
+    "population": 179154,
+    "chefLieu": "Chaumont",
+    "region": "Grand Est"
+  },
+  {
+    "numero": 53,
+    "nom": "Mayenne",
+    "superficie": 5175,
+    "population": 307940,
+    "chefLieu": "Laval",
+    "region": "Pays de la Loire"
+  },
+  {
+    "numero": 54,
+    "nom": "Meurthe-et-Moselle",
+    "superficie": 5246,
+    "population": 734403,
+    "chefLieu": "Nancy",
+    "region": "Grand Est"
+  },
+  {
+    "numero": 55,
+    "nom": "Meuse",
+    "superficie": 6211,
+    "population": 190626,
+    "chefLieu": "Bar-le-Duc",
+    "region": "Grand Est"
+  },
+  {
+    "numero": 56,
+    "nom": "Morbihan",
+    "superficie": 6823,
+    "population": 744813,
+    "chefLieu": "Vannes",
+    "region": "Bretagne"
+  },
+  {
+    "numero": 57,
+    "nom": "Moselle",
+    "superficie": 6216,
+    "population": 1044486,
+    "chefLieu": "Metz",
+    "region": "Grand Est"
+  },
+  {
+    "numero": 58,
+    "nom": "Nièvre",
+    "superficie": 6817,
+    "population": 211747,
+    "chefLieu": "Nevers",
+    "region": "Bourgogne-Franche-Comté"
+  },
+  {
+    "numero": 59,
+    "nom": "Nord",
+    "superficie": 5743,
+    "population": 2605238,
+    "chefLieu": "Lille",
+    "region": "Hauts-de-France"
+  },
+  {
+    "numero": 60,
+    "nom": "Oise",
+    "superficie": 5860,
+    "population": 821552,
+    "chefLieu": "Beauvais",
+    "region": "Hauts-de-France"
+  },
+  {
+    "numero": 61,
+    "nom": "Orne",
+    "superficie": 6103,
+    "population": 286618,
+    "chefLieu": "Alençon",
+    "region": "Normandie"
+  },
+  {
+    "numero": 62,
+    "nom": "Pas-de-Calais",
+    "superficie": 6671,
+    "population": 1472648,
+    "chefLieu": "Arras",
+    "region": "Hauts-de-France"
+  },
+  {
+    "numero": 63,
+    "nom": "Puy-de-Dôme",
+    "superficie": 7970,
+    "population": 647501,
+    "chefLieu": "Clermont-Ferrand",
+    "region": "Auvergne-Rhône-Alpes"
+  },
+  {
+    "numero": 64,
+    "nom": "Pyrénées-Atlantiques",
+    "superficie": 7645,
+    "population": 670032,
+    "chefLieu": "Pau",
+    "region": "Nouvelle-Aquitaine"
+  },
+  {
+    "numero": 65,
+    "nom": "Hautes-Pyrénées",
+    "superficie": 4464,
+    "population": 228582,
+    "chefLieu": "Tarbes",
+    "region": "Occitanie"
+  },
+  {
+    "numero": 66,
+    "nom": "Pyrénées-Orientales",
+    "superficie": 4116,
+    "population": 471038,
+    "chefLieu": "Perpignan",
+    "region": "Occitanie"
+  },
+  {
+    "numero": 67,
+    "nom": "Bas-Rhin",
+    "superficie": 4755,
+    "population": 1116658,
+    "chefLieu": "Strasbourg",
+    "region": "Grand Est"
+  },
+  {
+    "numero": 68,
+    "nom": "Haut-Rhin",
+    "superficie": 3525,
+    "population": 762607,
+    "chefLieu": "Colmar",
+    "region": "Grand Est"
+  },
+  {
+    "numero": 69,
+    "nom": "Rhône",
+    "superficie": 3249,
+    "population": 1821995,
+    "chefLieu": "Lyon",
+    "region": "Auvergne-Rhône-Alpes"
+  },
+  {
+    "numero": 70,
+    "nom": "Haute-Saône",
+    "superficie": 5360,
+    "population": 237706,
+    "chefLieu": "Vesoul",
+    "region": "Bourgogne-Franche-Comté"
+  },
+  {
+    "numero": 71,
+    "nom": "Saône-et-Loire",
+    "superficie": 8575,
+    "population": 555408,
+    "chefLieu": "Mâcon",
+    "region": "Bourgogne-Franche-Comté"
+  },
+  {
+    "numero": 72,
+    "nom": "Sarthe",
+    "superficie": 6206,
+    "population": 568445,
+    "chefLieu": "LeMans",
+    "region": "Pays de la Loire"
+  },
+  {
+    "numero": 73,
+    "nom": "Savoie",
+    "superficie": 6028,
+    "population": 428204,
+    "chefLieu": "Chambéry",
+    "region": "Auvergne-Rhône-Alpes"
+  },
+  {
+    "numero": 74,
+    "nom": "Haute-Savoie",
+    "superficie": 4388,
+    "population": 793938,
+    "chefLieu": "Annecy",
+    "region": "Auvergne-Rhône-Alpes"
+  },
+  {
+    "numero": 75,
+    "nom": "Paris",
+    "superficie": 105,
+    "population": 2206488,
+    "chefLieu": "Paris",
+    "region": "Ile-de-France"
+  },
+  {
+    "numero": 76,
+    "nom": "Seine-Maritime",
+    "superficie": 6278,
+    "population": 1257699,
+    "chefLieu": "Rouen",
+    "region": "Normandie"
+  },
+  {
+    "numero": 77,
+    "nom": "Seine-et-Marne",
+    "superficie": 5915,
+    "population": 1390121,
+    "chefLieu": "Melun",
+    "region": "Ile-de-France"
+  },
+  {
+    "numero": 78,
+    "nom": "Yvelines",
+    "superficie": 2284,
+    "population": 1427291,
+    "chefLieu": "Versailles",
+    "region": "Ile-de-France"
+  },
+  {
+    "numero": 79,
+    "nom": "Deux-Sèvres",
+    "superficie": 5999,
+    "population": 374435,
+    "chefLieu": "Niort",
+    "region": "Nouvelle-Aquitaine"
+  },
+  {
+    "numero": 80,
+    "nom": "Somme",
+    "superficie": 6170,
+    "population": 571879,
+    "chefLieu": "Amiens",
+    "region": "Hauts-de-France"
+  },
+  {
+    "numero": 81,
+    "nom": "Tarn",
+    "superficie": 5758,
+    "population": 386543,
+    "chefLieu": "Albi",
+    "region": "Occitanie"
+  },
+  {
+    "numero": 82,
+    "nom": "Tarn-et-Garonne",
+    "superficie": 3718,
+    "population": 255274,
+    "chefLieu": "Montauban",
+    "region": "Occitanie"
+  },
+  {
+    "numero": 83,
+    "nom": "Var",
+    "superficie": 5973,
+    "population": 1048652,
+    "chefLieu": "Toulon",
+    "region": "Provence-Alpes-Côte d'Azur"
+  },
+  {
+    "numero": 84,
+    "nom": "Vaucluse",
+    "superficie": 3567,
+    "population": 557548,
+    "chefLieu": "Avignon",
+    "region": "Provence-Alpes-Côte d'Azur"
+  },
+  {
+    "numero": 85,
+    "nom": "Vandée",
+    "superficie": 6720,
+    "population": 666714,
+    "chefLieu": "LaRoche-sur-Yon",
+    "region": "Pays de la Loire"
+  },
+  {
+    "numero": 86,
+    "nom": "Vienne",
+    "superficie": 6990,
+    "population": 434887,
+    "chefLieu": "Poitiers",
+    "region": "Nouvelle-Aquitaine"
+  },
+  {
+    "numero": 87,
+    "nom": "Haute-Vienne",
+    "superficie": 5520,
+    "population": 375795,
+    "chefLieu": "Limoges",
+    "region": "Nouvelle-Aquitaine"
+  },
+  {
+    "numero": 88,
+    "nom": "Vosges",
+    "superficie": 5874,
+    "population": 372016,
+    "chefLieu": "Épinal",
+    "region": "Grand Est"
+  },
+  {
+    "numero": 89,
+    "nom": "Yonne",
+    "superficie": 7427,
+    "population": 340903,
+    "chefLieu": "Auxerre",
+    "region": "Bourgogne-Franche-Comté"
+  },
+  {
+    "numero": 90,
+    "nom": "TerritoiredeBelfort",
+    "superficie": 609,
+    "population": 144483,
+    "chefLieu": "Belfort",
+    "region": "Bourgogne-Franche-Comté"
+  },
+  {
+    "numero": 91,
+    "nom": "Essonne",
+    "superficie": 1804,
+    "population": 1276233,
+    "chefLieu": "Évry",
+    "region": "Ile-de-France"
+  },
+  {
+    "numero": 92,
+    "nom": "Hauts-de-Seine",
+    "superficie": 176,
+    "population": 1601569,
+    "chefLieu": "Nanterre",
+    "region": "Ile-de-France"
+  },
+  {
+    "numero": 93,
+    "nom": "Seine-St-Denis",
+    "superficie": 236,
+    "population": 1592663,
+    "chefLieu": "Bobigny",
+    "region": "Ile-de-France"
+  },
+  {
+    "numero": 94,
+    "nom": "Val-de-Marne",
+    "superficie": 245,
+    "population": 1372389,
+    "chefLieu": "Créteil",
+    "region": "Ile-de-France"
+  },
+  {
+    "numero": 95,
+    "nom": "Val-D'Oise",
+    "superficie": 1246,
+    "population": 1215390,
+    "chefLieu": "Pontoise",
+    "region": "Ile-de-France"
+  },
+  {
+    "numero": 971,
+    "nom": "Guadeloupe",
+    "superficie": 1628,
+    "population": 397990,
+    "chefLieu": "Basse-Terre",
+    "region": "Guadeloupe"
+  },
+  {
+    "numero": 972,
+    "nom": "Martinique",
+    "superficie": 1128,
+    "population": 380877,
+    "chefLieu": "Fort-de-France",
+    "region": "Martinique"
+  },
+  {
+    "numero": 973,
+    "nom": "Guyane",
+    "superficie": 83534,
+    "population": 259865,
+    "chefLieu": "Cayenne",
+    "region": "Guyane"
+  },
+  {
+    "numero": 974,
+    "nom": "LaRéunion",
+    "superficie": 2504,
+    "population": 850727,
+    "chefLieu": "Saint-Denis",
+    "region": "La Réunion"
+  },
+  {
+    "numero": 976,
+    "nom": "Mayotte",
+    "superficie": 376,
+    "population": 256518,
+    "chefLieu": "Dzaoudzi",
+    "region": "Mayotte"
+  }
+]

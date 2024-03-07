@@ -1,0 +1,50 @@
+[
+  {
+    "LaQuantite": 100,
+    "LeMeuble": {
+      "LaDimension": {
+        "Hauteur": 200.0,
+        "Largeur": 120.0,
+        "Profondeur": 55.0
+      },
+      "LaReference": "RAZA",
+      "LePrix": 59.99
+    }
+  },
+  {
+    "LaQuantite": 120,
+    "LeMeuble": {
+      "LaDimension": {
+        "Hauteur": 100.0,
+        "Largeur": 50.0,
+        "Profondeur": 45.0
+      },
+      "LaReference": "TIKKA",
+      "LePrix": 45.99
+    }
+  },
+  {
+    "LaQuantite": 10,
+    "LeMeuble": {
+      "LaDimension": {
+        "Hauteur": 80.0,
+        "Largeur": 50.0,
+        "Profondeur": 45.0
+      },
+      "LaReference": "TIKKI",
+      "LePrix": 125.9
+    }
+  },
+  {
+    "LaQuantite": 0,
+    "LeMeuble": {
+      "LaDimension": {
+        "Hauteur": 80.0,
+        "Largeur": 40.0,
+        "Profondeur": 25.0
+      },
+      "LaReference": "RATUM",
+      "LePrix": 76.0
+    }
+  }
+]
