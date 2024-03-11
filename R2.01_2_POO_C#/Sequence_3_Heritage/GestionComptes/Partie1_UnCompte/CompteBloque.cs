@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Partie1_UnCompte
 {
-    internal class CompteBloque : Compte
+    public class CompteBloque : Compte
     {
         private double seuilMin;
 

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Partie1_UnCompte
 {
-    internal class CompteEpargne : CompteBloque
+    public class CompteEpargne : CompteBloque
     {
         private double txEpargne;
         private double seuilMax;
@@ -86,7 +86,14 @@ namespace Partie1_UnCompte
 
         public int CalculNbAnnee(double montantAAtteindre)
         {
-            return (int)(Math.Log(montantAAtteindre / Solde) / (Math.Log(1 + TxEpargne)));
+            int res = 0;
+            double montant = Solde;
+            while (montant<montantAAtteindre)
+            {
+                montant += montant * TxEpargne;
+                res += 1;
+            }
+            return res;
         }
     }
 }
