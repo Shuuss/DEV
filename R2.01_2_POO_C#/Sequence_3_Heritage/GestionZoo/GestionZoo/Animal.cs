@@ -14,7 +14,7 @@ namespace GestionZoo
         Hermaphrodite = 'H'
     }
     
-    public abstract class Animal : IComparable
+    public abstract class Animal
     {
         public const String UM_TAILLE = "m";
         public const String UM_POIDS = "kg";
@@ -142,7 +142,7 @@ namespace GestionZoo
         {
             return $"Nom : {Nom}" +
                 $"\nSexe : {Sexe}" +
-                $"\nAnnee de Naissance : 1988" +
+                $"\nAnnee de Naissance : {AnneeNaissance}" +
                 $"\nAge ; {Age} {UM_AGE}" +
                 $"\nAdulte : {EstAdulte()}" +
                 $"\nPoids : {Poids} {UM_POIDS}" +
@@ -150,9 +150,5 @@ namespace GestionZoo
                 $"\nCri : {Cri()}";
         }
 
-        public int CompareTo(object? obj)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

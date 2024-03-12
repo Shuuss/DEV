@@ -110,9 +110,9 @@ namespace GestionZoo
         {
             if (venimeux)
             {
-                return base.ToString()+$"nous avons là un beau serpent {espece} venimeux";
+                return base.ToString()+$"\nnous avons là un beau serpent {espece} venimeux";
             }
-            return base.ToString() + $"nous avons là un beau serpent {espece}";
+            return base.ToString() + $"\nnous avons là un beau serpent {espece}";
         }
 
         public string Tue()
