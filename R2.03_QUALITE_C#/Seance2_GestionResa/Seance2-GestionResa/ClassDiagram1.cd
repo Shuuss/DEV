@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="GestionReservations.Resa">
+    <Position X="1.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AIAwIACgAAgAAAAMgAEAIAAFAAAAAIIAAAAgiIAAMqg=</HashCode>
+      <FileName>Resa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="GestionReservations.Hotels">
+    <Position X="4.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Resa.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GestionReservations.Voitures">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAgAAABA=</HashCode>
+      <FileName>Resa.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
