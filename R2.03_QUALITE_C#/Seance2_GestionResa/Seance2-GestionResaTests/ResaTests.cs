@@ -16,14 +16,14 @@ namespace GestionReservations.Tests
         public void ResaTestDateInvalide()
         {
             Resa reservation = new Resa(new DateTime(2024, 3, 26), new DateTime(2024, 3, 1), 2, Hotels.PLAZZA, "nat@gmail.fr", Voitures.AUCUNE, 0);
-            
+
         }
 
         [TestMethod()]
         [ExpectedException(typeof(ArgumentException))]
         public void ResaTestMailInvalide()
         {
-            Resa reservation = new Resa(new DateTime(2024, 3, 1),new DateTime(2024, 3, 9), 2, Hotels.PLAZZA, "natgmail.fr", Voitures.AUCUNE, 0);
+            Resa reservation = new Resa(new DateTime(2024, 3, 1), new DateTime(2024, 3, 9), 2, Hotels.PLAZZA, "natgmail.fr", Voitures.AUCUNE, 0);
         }
 
         [TestMethod()]

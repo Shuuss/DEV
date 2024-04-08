@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestionPension", "GestionPension\GestionPension.csproj", "{672C495A-6DC1-44C9-BDC7-A0121867EABB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestionPensionTest", "GestionPensionTest\GestionPensionTest.csproj", "{0244BF77-C20D-44A3-B936-2A53288AF923}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{672C495A-6DC1-44C9-BDC7-A0121867EABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{672C495A-6DC1-44C9-BDC7-A0121867EABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{672C495A-6DC1-44C9-BDC7-A0121867EABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{672C495A-6DC1-44C9-BDC7-A0121867EABB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0244BF77-C20D-44A3-B936-2A53288AF923}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0244BF77-C20D-44A3-B936-2A53288AF923}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0244BF77-C20D-44A3-B936-2A53288AF923}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0244BF77-C20D-44A3-B936-2A53288AF923}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73BFD929-6D19-42B5-8C6E-928AC1AFA64F}
+	EndGlobalSection
+EndGlobal

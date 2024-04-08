@@ -143,6 +143,12 @@ namespace GestionReservations
                 {
                     throw new ArgumentException();
                 }
+                if (value>0 && this.choixVoiture == Voitures.AUCUNE)
+                {
+                    throw new ArgumentException();
+                }
+                if (value > NbJours)
+                    throw new ArgumentException();
                 this.nbJoursVoiture = value;
             }
         }
