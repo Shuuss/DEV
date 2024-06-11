@@ -1,0 +1,58 @@
+﻿[
+  {
+    "nom": "Rapin",
+    "prenom": "Nathalie",
+    "dateNaissance": "1987-10-14T00:00:00",
+    "email": "nat@gmail.com",
+    "telephone": "0606060606",
+    "genre": 2
+  },
+  {
+    "nom": "Bois",
+    "prenom": "Marc",
+    "dateNaissance": "1992-11-04T00:00:00",
+    "email": "marc@gmail.com",
+    "telephone": "0604050507",
+    "genre": 1
+  },
+  {
+    "nom": "Mayu",
+    "prenom": "Lila",
+    "dateNaissance": "2000-01-12T00:00:00",
+    "email": "lila@gmail.com",
+    "telephone": "0602030405",
+    "genre": 2
+  },
+  {
+    "nom": "Casa",
+    "prenom": "Maryline",
+    "dateNaissance": "1982-05-21T00:00:00",
+    "email": "maryline@gmail.com",
+    "telephone": "0601020304",
+    "genre": 2
+  },
+  {
+    "nom": "Pirou",
+    "prenom": "Mathieu",
+    "dateNaissance": "1984-06-15T00:00:00",
+    "email": "mathieu@gmail.com",
+    "telephone": "0621426384",
+    "genre": 1
+  },
+  {
+    "nom": "Pompon",
+    "prenom": "Mathéo",
+    "dateNaissance": "2001-06-15T00:00:00",
+    "email": "matheo@gmail.com",
+    "telephone": "0621499374",
+    "genre": 1
+  },
+  {
+    "nom": "Balidin",
+    "prenom": "François",
+    "dateNaissance": "1971-09-05T00:00:00",
+    "email": "francois@gmail.com",
+    "telephone": "0733993740",
+    "genre": 1
+  }
+]

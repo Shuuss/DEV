@@ -1,0 +1,118 @@
+﻿<Window
+    x:Class="P1_FicheClient.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:P1_FicheClient"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    x:Name="mainWindow"
+    Title="Fiche Client"
+    Width="400"
+    Height="450"
+    mc:Ignorable="d">
+    <Window.DataContext>
+        <local:Client x:Name="nouveauClient" />
+    </Window.DataContext>
+    <Window.Resources>
+        <local:GenreClientToBool x:Key="convertGenreToBool" />
+        <Style TargetType="TextBox">
+            <Style.Triggers>
+                <Trigger Property="Validation.HasError" Value="true">
+                    <Setter Property="ToolTip" Value="{Binding RelativeSource={x:Static RelativeSource.Self}, Path=(Validation.Errors)[0].ErrorContent}" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    <StackPanel x:Name="sp">
+        <Label
+            x:Name="labChampsObligatoires"
+            Margin="0,40,60,0"
+            HorizontalAlignment="Right"
+            Content="Tous les champs sont obligatoires"
+            FontSize="10"
+            Foreground="#FFA7A7A7" />
+        <Label
+            x:Name="labNom"
+            Margin="60,0,60,0"
+            Content="_Nom"
+            Target="{Binding ElementName=tbNom, Mode=OneWay}" />
+        <TextBox
+            x:Name="tbNom"
+            Margin="60,0,60,0"
+            Text="{Binding Nom, ValidatesOnExceptions=True}"
+            TextWrapping="Wrap" />
+        <Label
+            x:Name="labPrenom"
+            Margin="60,0,60,0"
+            Content="_Prénom"
+            Target="{Binding ElementName=tbPrenom, Mode=OneWay}" />
+        <TextBox
+            x:Name="tbPrenom"
+            Margin="60,0,60,0"
+            Text="{Binding Prenom, ValidatesOnExceptions=True}"
+            TextWrapping="Wrap" />
+        <Label
+            x:Name="labDateNaissance"
+            Margin="60,0,60,0"
+            Content="_DateNaissance"
+            Target="{Binding ElementName=dpDateNaissance, Mode=OneWay}" />
+        <DatePicker
+            x:Name="dpDateNaissance"
+            Margin="60,0,60,0"
+            SelectedDate="{Binding DateNaissance, ValidatesOnExceptions=True}" />
+        <Label
+            x:Name="labEmail"
+            Margin="60,0,60,0"
+            Content="_Email"
+            Target="{Binding ElementName=tbEmail, Mode=OneWay}" />
+        <TextBox
+            x:Name="tbEmail"
+            Margin="60,0,60,0"
+            Text="{Binding Email, ValidatesOnExceptions=True}"
+            TextWrapping="Wrap" />
+        <Label
+            x:Name="labTelephone"
+            Margin="60,0,60,0"
+            Content="_Telephone"
+            Target="{Binding ElementName=tbTelephone, Mode=OneWay}" />
+        <TextBox
+            x:Name="tbTelephone"
+            Margin="60,0,60,0"
+            Text="{Binding Telephone, ValidatesOnExceptions=True}"
+            TextWrapping="Wrap" />
+        <Label
+            x:Name="labGenre"
+            Margin="60,0,60,0"
+            Content="Genre" />
+        <StackPanel
+            x:Name="spGenre"
+            Margin="60,0,60,0"
+            Orientation="Horizontal">
+            <RadioButton
+                x:Name="rbFemme"
+                Margin="20,0,0,0"
+                Content="Femme"
+                IsChecked="{Binding Genre, Converter={StaticResource convertGenreToBool}, ConverterParameter={x:Static local:GenreClient.Femme}}" />
+            <RadioButton
+                x:Name="rbHomme"
+                Margin="20,0,0,0"
+                Content="Homme"
+                IsChecked="{Binding Genre, Converter={StaticResource convertGenreToBool}, ConverterParameter={x:Static local:GenreClient.Homme}}" />
+            <RadioButton
+                x:Name="rbAutre"
+                Margin="20,0,0,0"
+                Content="Autre"
+                IsChecked="{Binding Genre, Converter={StaticResource convertGenreToBool}, ConverterParameter={x:Static local:GenreClient.Neutre}}" />
+        </StackPanel>
+        <Button
+            x:Name="btValider"
+            Width="100"
+            Margin="0,30,60,0"
+            HorizontalAlignment="Right"
+            Click="btValider_Click"
+            Content="Valider" />
+
+
+
+    </StackPanel>
+</Window>
